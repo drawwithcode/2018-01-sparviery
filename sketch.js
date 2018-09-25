@@ -128,4 +128,12 @@ rect(237.5,80,20,5,2.5);
 fill(204,204,46);
 ellipse(247.5,57.5,15);
 
+//shiiitt
+
+fill(86,39,4);
+ellipse(mouseX, mouseY+8, 70, 23);
+ellipse(mouseX, mouseY, 56, 23);
+ellipse(mouseX, mouseY-7, 42, 23);
+ellipse(mouseX-4, mouseY-15, 25, 17);
+
 }
