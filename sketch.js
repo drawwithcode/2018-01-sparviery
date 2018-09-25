@@ -4,10 +4,14 @@ function setup() {
 	// Set here the values that are not changing all over the sketch
 	strokeWeight(2);
 	stroke(220);
-	background(200);
+	background(109,178,160);
+
+
 }
 
 function draw() {
+
+stroke(220);
 
 colorMode(RGB);
 rectMode(CORNER);
@@ -128,9 +132,13 @@ rect(237.5,80,20,5,2.5);
 fill(204,204,46);
 ellipse(247.5,57.5,15);
 
+
+
+
 //shiiitt
 
 fill(86,39,4);
+stroke(15);
 ellipse(mouseX, mouseY+8, 70, 23);
 ellipse(mouseX, mouseY, 56, 23);
 ellipse(mouseX, mouseY-7, 42, 23);
